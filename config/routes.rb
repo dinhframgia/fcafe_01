@@ -4,5 +4,8 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :shop_types
   end
+  namespace :shop_owner do
+    resources :products
+  end
   resources :shops
 end
